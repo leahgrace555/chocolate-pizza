@@ -4,56 +4,88 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/reset.css" type="text/css"/>
-  <link rel="stylesheet" href="/css/style.css" type="text/css"/>
+  <link rel="stylesheet" href="/css/style.css" 
+  type="text/css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Pacifico&family=Patrick+Hand&display=swap" rel="stylesheet">
+
   <title></title>
 </head>
 <body>
   <header>
-    <img src="./img/logo.png" alt="">
-    <h2>Delicious</h2>
-    <p>The Best Food Blog On The Web</p>
-    <img src="./img/fb-icon.png" alt="">
-    <img src="./img/twit-icon.png" alt="">
-    <img src="./img/gp-icon.png" alt="">
-    <img src="./img/insta-icon.png" alt="">
-    <img src="./img/flic-icon.png" alt="">
-    <img src="./img/pint-icon.png" alt="">
-    <img src="./img/rss-icon.png" alt="">
-    <img src="./img/mail-icon.png" alt="">
+    <img src="./img/logo.png" alt="logo" id='Logo'>
+    <div id='socials'>
+      <img src="./img/fb-icon.png" alt="">
+      <img src="./img/twit-icon.png" alt="">
+      <img src="./img/gp-icon.png" alt="">
+      <img src="./img/insta-icon.png" alt="">
+      <img src="./img/flic-icon.png" alt="">
+      <img src="./img/pint-icon.png" alt="">
+      <img src="./img/rss-icon.png" alt="">
+      <img src="./img/mail-icon.png" alt="">
+    </div>
+
+    <div>
+      <h2>Delicious</h2>
+      <p>The Best Food Blog On The Web</p>
+    </div>
+   
+ 
+   
 
     <hr/>
   </header>
   <main>
-    <h2>Chocolate Pizza</h2>
-    <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
-    <a href="">PRINT</a>
-    <img src="./img/choco-pizza.png" alt="">
+    <h1>Chocolate Pizza</h1>
+
+    <div>
+      <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
+
+      <a href=""> <img src="img/print-icon.png"/> PRINT</a>
+    </div>
+    
+    
     <article>
-      <p></p>
-      <p></p>
-      <p></p>
+      <img src="./img/choco-pizza.png" alt="">
+      <p>Lorem ipsum dolor sit amet, ei qui dicit facilisi, nullam eripuit epicuri ex sea. Duo alii iriure eu, id vis eruditi evertitur adolescens, mel ut percipit salutatus. His fugit munere ancillae ne, ex mea diceret insolens. Eos te graecis salutandi persecuti. Aeque impetus necessitatibus ius ei, eu per fastidii adversarium.</p>
+      <p>Lorem ipsum dolor sit amet, ei qui dicit facilisi, nullam eripuit epicuri ex sea. Duo alii iriure eu, id vis eruditi evertitur adolescens, mel ut percipit salutatus. His fugit munere ancillae ne, ex mea diceret insolens. Eos te graecis salutandi persecuti. Aeque impetus necessitatibus ius ei, eu per fastidii adversarium.</p>
+      <p>Lorem ipsum dolor sit amet, ei qui dicit facilisi, nullam eripuit epicuri ex sea. Duo alii iriure eu, id vis eruditi evertitur adolescens, mel ut percipit salutatus. His fugit munere ancillae ne, ex mea diceret insolens. Eos te graecis salutandi persecuti. Aeque impetus necessitatibus ius ei, eu per fastidii adversarium.</p>
 
     </article>
-    <form>
-      <label><input type="checkbox"/>1 1/2 Cups Milk</label>
-      <label><input type="checkbox"/>1/2 Cup Mascarpone</label>
-      <label><input type="checkbox"/>1/2 tsp Pink Salt</label>
-      <label><input type="checkbox"/>1/2 Cup Brown Sugar</label>
-      <label><input type="checkbox"/>2-4 Tbsps Water</label>
-      <label><input type="checkbox"/>1/2 Cups heavy Cream</label>
-      <label><input type="checkbox"/>1/3 Granulated Sugar</label>
-      <label><input type="checkbox"/>2 Egg Yolks</label>
-      <label><input type="checkbox"/>1 Lemon Juice</label>
-      <label><input type="checkbox"/>2 Tbsps Butter</label>
-      <label><input type="checkbox"/>1 Cup Honey Roasted Pecans</label>
+
+    <div id="form">
+      <form>
+          <section id="left-column">
+            <label><input type="checkbox"/>1 1/2 Cups Milk</label>
+            <label><input type="checkbox"/>1/2 Cup Mascarpone</label> 
+            <label><input type="checkbox"/>1/2 tsp Pink Salt</label> 
+            <label><input type="checkbox"/>1/2 Cup Brown Sugar</label>
+            <label><input type="checkbox"/>2-4 Tbsps Water</label> 
+            <label><input type="checkbox"/>1/2 Cups heavy Cream</label>  
+          </section>
   
+          <section id="right-column">
+            <label><input type="checkbox"/>1/3 Granulated Sugar</label>
+            <label><input type="checkbox"/>2 Egg Yolks</label>
+            <label><input type="checkbox"/>1 Lemon Juice</label>
+            <label><input type="checkbox"/>2 Tbsps Butter</label>
+            <label><input type="checkbox"/>1 Cup Honey Roasted Pecans</label>
+         
+          </section>
+          
+        
+      </form>
       
-    </form>
+    </div>
+
     <hr/>
+    <br>
+    
     <section>
-      <img src="./img/van-pic.png" alt="">
+      <img src="./img/van-pic.png" alt="" id="headshot">
+     <div id="vanessa">
       <h3>Vanessa Stevenson</h3>
       <p>Food Enthusaist. Photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+     </div> 
       <a href="" id="share-link">SHARE RECIPE</a>
     </section>
   </main>

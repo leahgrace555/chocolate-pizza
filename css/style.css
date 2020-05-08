@@ -1,0 +1,158 @@
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
+a {
+  text-decoration: unset;
+  color: antiquewhite;
+} 
+
+header {
+  padding-top: 1em;
+}
+
+header h2 {
+  font-size: 20pt;
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  display: inline;
+}
+
+header div {
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+}
+
+#logo {
+  float: left;
+}
+
+#socials {
+  float: right;
+}
+
+h1 {
+  font-size: 30pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 1em;
+}
+main div p {
+  display: inline-block;
+  margin-top: .25em;
+  font-size: 10pt;
+  color: gray;
+  font-family: 'Abel', sans-serif;
+}
+main div a {
+  float: right;
+  font-size: 10pt;
+  color: grey;
+  font-family: 'Abel', sans-serif;
+}
+
+article {
+  padding-bottom: 30px;
+}
+
+article img {
+  margin: 20px 0px;
+}
+
+article p {
+  padding-top: 1em;
+  line-height: 1.25em;
+  text-indent: 2em;
+}
+
+main article img {
+  width: 100%;
+}
+
+main article p {
+  color: rgb(87, 87, 87);
+}
+
+#form {
+  background-color: greenyellow;
+  background-image: url("../img/list-bg.png");
+  height: 305px;
+  color: rgb(87, 87, 87);
+  font-family: 'Patrick Hand', cursive;
+}
+
+#form div {
+  justify-content: space-between;
+}
+
+#right-column {
+  float: right;
+  margin-right: 60px;
+}
+
+#left-column {
+  float: left;
+  margin-left: 50px;
+}
+
+
+#form label {
+  display: block;
+  line-height: 1.5em;
+}
+
+#form section {
+  display: inline-block;
+  padding: 40px;
+  font-size: 14pt;
+}
+
+#headshot {
+  float: left;
+}
+
+#vanessa {
+  display: inline-block;
+  line-height: 1.5em;
+  margin-left: 10px;
+  max-width: 550px;
+}
+
+#vanessa h3 {
+  font-size: 16pt;
+}
+
+#vanessa p {
+  font-size: 14pt;
+  font-family: serif;
+}
+
+#share-link {
+  padding: 1em 2em;
+  background-color: #BC7058;
+  float: right;
+  font-family: 'Abel', sans-serif;
+}
+
+footer {
+  text-align: center;
+  margin-top: 7em;
+  line-height: 1.5em;
+  color: gray;
+  font-size: 10pt;
+  padding-bottom: 2em;
+}
+
+footer img {
+  margin-bottom: 1.5em;
+}
+
+hr {
+  background-image: url("../img/hr-img.png");
+  height: 8px;
+}
+
+
+
+
+
